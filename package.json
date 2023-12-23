@@ -20,6 +20,7 @@
     "all": "run-s lint test build",
     "build": "tsup src/main.ts --dts --format esm,cjs",
     "release": "npm run build && changeset publish",
+    "dev": "pnpm --filter \"azure-functions-dev-server\" dev",
     "lint": "tsc --noEmit",
     "test": "ava"
   },
@@ -39,7 +40,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mild-ts/npm-typescript-boilerplate.git"
+    "url": "https://github.com/thaitype/azure-functions-dev-server.git"
   },
   "publishConfig": {
     "access": "public",

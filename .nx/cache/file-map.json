@@ -1,0 +1,125 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.7",
+  "deps": {
+    "@changesets/cli": "^2.26.0",
+    "@types/node": "^18.11.18",
+    "ava": "^5.1.1",
+    "c8": "^7.12.0",
+    "esbuild-register": "^3.4.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.3",
+    "tsup": "^6.6.3",
+    "typescript": "^5.0.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".changeset/README.md",
+        "hash": "4888845876018830777"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1792151424564742917"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "18191963578874951542"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "17925654364201772921"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "10978002927680186739"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "2546655484263455154"
+      },
+      {
+        "file": "README.md",
+        "hash": "12092302030225242086"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "5653579081474028858"
+      },
+      {
+        "file": ".github/workflows/main.yml",
+        "hash": "2863173760188162162"
+      },
+      {
+        "file": "package.json",
+        "hash": "7658045681588160728"
+      },
+      {
+        "file": ".changeset/config.json",
+        "hash": "2367369710197482262"
+      },
+      {
+        "file": ".github/workflows/publish.yml",
+        "hash": "7022348757917054053"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15127669877014253313"
+      }
+    ],
+    "projectFileMap": {
+      "@example/basic": [
+        {
+          "file": "examples/basic/CHANGELOG.md",
+          "hash": "15303462932470777086"
+        },
+        {
+          "file": "examples/basic/host.json",
+          "hash": "3556709217430354058"
+        },
+        {
+          "file": "examples/basic/local.settings.json",
+          "hash": "5735951617162188843"
+        },
+        {
+          "file": "examples/basic/package.json",
+          "hash": "17326573011814529050",
+          "deps": [
+            "npm:@azure/functions",
+            "azure-functions-dev-server"
+          ]
+        },
+        {
+          "file": "examples/basic/src/functions/hello.ts",
+          "hash": "5202382134505903031"
+        },
+        {
+          "file": "examples/basic/tsconfig.json",
+          "hash": "14838918180091507561"
+        }
+      ],
+      "azure-functions-dev-server": [
+        {
+          "file": "packages/azure-functions-dev-server/CHANGELOG.md",
+          "hash": "17716678632257211787"
+        },
+        {
+          "file": "packages/azure-functions-dev-server/package.json",
+          "hash": "12221979539055957901",
+          "deps": [
+            "npm:@azure/functions",
+            "npm:@trpc/server",
+            "npm:@types/aws-lambda",
+            "npm:nodemon"
+          ]
+        },
+        {
+          "file": "packages/azure-functions-dev-server/src/main.ts",
+          "hash": "14917810642717703396"
+        }
+      ]
+    }
+  }
+}

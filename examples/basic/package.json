@@ -1,0 +1,28 @@
+{
+  "name": "@example/basic",
+  "version": "2.0.0",
+  "description": "Azure Function Nodejs Lightweight framework with Dependency Injection (inversify Extension)",
+  "main": "dist/src/functions/*.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "build:watch": "tsc -w",
+    "start": "func start",
+    "start:watch": "func start -w",
+    "dev": "run-s build start",
+    "dev:watch": "run-p build:watch start:watch"
+  },
+  "author": "Thada Wangthammang",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/functions": "^4.0.1",
+    "azure-functions-dev-server": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mildronize/nammatham.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
