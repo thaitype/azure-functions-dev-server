@@ -1,7 +1,7 @@
 {
-  "name": "@mild-ts/npm-typescript-boilerplate",
-  "version": "0.0.2",
-  "description": "NPM TypeScript Boilerplate with Changesets CLI & GitHub Actions",
+  "name": "azure-functions-dev-server",
+  "version": "0.0.0",
+  "description": "Express.js Wrapper Dev Server for Azure Functions",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
